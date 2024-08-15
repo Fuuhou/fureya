@@ -17,8 +17,8 @@ commonname=none
 email=fuuhouhou685@gmail.com
 
 # simple password minimal
-curl -sS https://raw.githubusercontent.com/Fuuhou/fureya/main/password | openssl aes-256-cbc -d -a -pass pass:xiestore76 -pbkdf2 > /etc/pam.d/common-password
-chmod +x /etc/pam.d/common-password
+#curl -sS https://raw.githubusercontent.com/Fuuhou/fureya/main/password | openssl aes-256-cbc -d -a -pass pass:xiestore76 -pbkdf2 > /etc/pam.d/common-password
+#chmod +x /etc/pam.d/common-password
 
 # go to root
 cd
